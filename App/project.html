@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cabin:ital,wght@0,400..700;1,400..700&family=Italiana&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+<link rel="website icon" type="img" href="Assets/images/MyLogo.jpg">
+ <link rel="stylesheet" href="index.css">
+    <title>Προσωπικά έργα</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Assets/images/MyLogo.jpg" alt="Logo">
+            <a href="index.html">FrontEndDev</a>
+        </div>
+        <nav class="header__nav">
+            <nav>
+                <a href="index.html" class="header__link">Αρχική</a>
+                <a href="idea.html" class="header__link">Η Ιδέα</a>
+                <a href="projects.html" class="header__link">Projects</a>
+                <a href="contact.html" class="header__link">Επικοινωνία</a>
+            </nav>
+            <div class="socials-btn">
+                  <a href="https://github.com/zqzmf7gr76-cpu">
+                GitHub
+             </a>
+             <a href="https://www.youtube.com/@WebDeveloper-op1fb">
+              Youtube</a>
+            </div>
+            </div>
+        </nav>
+        <button class="hamburger" id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <div class="sticky-spacer"></div> 
+    <main>
+        <section class="projects-hero">
+            <div class="project-text">
+                <h2>Τα Έργα μου</h2>
+                <p>Δείγματα κώδικα και εφαρμογές που αναπτύχθηκαν από μένα</p>
+            </div>
+            <div class="projects-images">
+                <img src="Assets/images/MyLogo.jpg" alt="Projects Icon" style="width: 150px;">
+            </div>
+        </section>
+        <div style="max-width: 1200px; margin: 3rem auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; padding: 0 20px;">
+            <article class="project-card">
+                <div class="project-header">
+                    <h2>Nicee</h2>
+                    <p>Ένα απλό website ραδιόφωνο</p>
+                </div>
+                <figure class="project-image">
+                    <img src="Assets/images/nicee.png" alt="Screenshot Project 1" width="100%">
+                    <figcaption>Το έργο υλοποιήθηκε με τις παρακάτω Γλώσσες</figcaption>
+                </figure>
+                <div class="project-footer">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+<path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+<path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+<path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
+      </svg>
+                    <a href="http://nicee.gr/index.html" class="project-link">Δες το Project</a>
+                </div>
+            </article>
+            <article class="project-card">
+                <div class="project-header">
+                    <h2>GoosheepBarberShop</h2>
+                    <p>Μοντέρνο Website BarberShop</p>
+                <figure class="project-image">
+                    <img src="Assets/images/barbershop.png" alt="BarberShop" width="100%">
+                </figure>
+                <div class="project-footer">
+                    <figcaption>Το έργο υλοποιήθηκε με τις παρακάτω Γλώσσες</figcaption>
+                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+<path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+<path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+<path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
+</svg>
+                    <a href="  https://zqzmf7gr76-cpu.github.io/GoosheepBarberShop/barber.html" class="project-link">Δες το Project</a>
+                </div>
+            </article>
+        </div>
+    </main>
+  
+<footer>
+<div class="footer">
+   <div class="footer-header">
+     <img src="Assets/images/MyLogo.jpg" alt="my-logo" width="50" height="50">
+      <h2>FrontendDev</h2>
+   </div>
+    <div class="footer-paragraph">
+      <p>Μάθετε frontend development με απλό και κατανοητό τρόπο στα ελληνικά. Εξερευνήστε τα projects και γίνετε μέλος της κοινότητάς μας!</p>
+    </div>
+<div class="row">
+<a href="#"><i class="fa-brands fa-youtube"></i></a>
+<a href="#"><i class="fa-brands fa-github"></i></a>
+</div>
+<div class="email">
+<a href="mailto:developmentpanos@gmail.com">developmentpanos@gmail.com</a>
+</div>
+<div class="row">
+<ul>
+<li><a href="contact.html">Επικοινωνία</a></li>
+<li><a href="index.html">Αρχική</a></li>
+<li><a href="idea.html">Αρχική-Ιδέα</a></li>
+</ul>
+</div>
+<div class="row">
+ © 2025 FrontendDev ολα τα δικαιώματα κατοχυρωμένα.
+</div>
+</div>
+</footer>
+ <script src="index.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

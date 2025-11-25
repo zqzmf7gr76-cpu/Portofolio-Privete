@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cabin:ital,wght@0,400..700;1,400..700&family=Italiana&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+<link rel="website icon" type="img" href="Assets/images/MyLogo.jpg">
+ <link rel="stylesheet" href="index.css">
+    <title>Επικοινωνία | FrontEndDev</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Assets/images/MyLogo.jpg" alt="Logo">
+            <a href="index.html">FrontEndDev</a>
+        </div>
+        <nav class="header__nav">
+            <nav>
+                <a href="index.html" class="header__link">Αρχική</a>
+                <a href="idea.html" class="header__link">Η Ιδέα</a>
+                <a href="projects.html" class="header__link">Projects</a>
+                <a href="contact.html" class="header__link">Επικοινωνία</a>
+            </nav>
+            <div class="socials-btn">
+                  <a href="https://github.com/zqzmf7gr76-cpu">
+                GitHub
+             </a>
+             <a href="https://www.youtube.com/@WebDeveloper-op1fb">
+              Youtube</a>
+            </div>
+            </div>
+        </nav>
+        <button class="hamburger" id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <div class="sticky-spacer"></div> 
+    <main class="main-contact">
+        <section class="contact">
+            <div class="contact-image">
+                <img src="Assets/images/MyLogo.jpg" alt="Contact Icon">
+            </div>
+            <p class="paragraph-contact">
+                Έχετε ερωτήσεις; Θα θέλατε να συνεργαστείτε; Στείλτε μας το μήνυμά σας!
+            </p>
+            <form action="#" method="POST" class="contact-form">
+                <label for="name">Όνομα:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Μήνυμα:</label>
+                <input type="text" id="message" name="message" required style="height: 100px;"> 
+                <button type="submit" class="send-btn">Αποστολή</button>
+            </form>
+        </section>
+    </main>
+<footer>
+<div class="footer">
+   <div class="footer-header">
+     <img src="Assets/images/MyLogo.jpg" alt="my-logo" width="50" height="50">
+      <h2>FrontendDev</h2>
+   </div>
+    <div class="footer-paragraph">
+      <p>Μάθετε frontend development με απλό και κατανοητό τρόπο στα ελληνικά. Εξερευνήστε τα projects και γίνετε μέλος της κοινότητάς μας!</p>
+    </div>
+<div class="row">
+<a href="#"><i class="fa-brands fa-youtube"></i></a>
+<a href="#"><i class="fa-brands fa-github"></i></a>
+</div>
+<div class="email">
+<a href="mailto:developmentpanos@gmail.com">developmentpanos@gmail.com</a>
+</div>
+<div class="row">
+<ul>
+<li><a href="contact.html">Επικοινωνία</a></li>
+<li><a href="index.html">Αρχική</a></li>
+<li><a href="idea.html">Αρχική-Ιδέα</a></li>
+</ul>
+</div>
+<div class="row">
+ © 2025 FrontendDev ολα τα δικαιώματα κατοχυρωμένα.
+</div>
+</div>
+</footer>
+ <script src="index.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
